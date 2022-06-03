@@ -20,8 +20,23 @@ sh cleanup.sh
 
 ## urls
 
-- http://localhost:4000/
-- http://localhost:4000/install/
+### main page
+
+<details>
+<summary>http://localhost:4000/</summary>
+    
+main page
+
+</details>
+
+### install page
+
+<details>
+<summary>http://localhost:4000/install/</summary>
+
+![install](./img/install.png)
+
+</details>
 
 ## tips
 

@@ -1,8 +1,8 @@
-docker run --platform amd64 -d -p 4000:80 --rm local-wptserver
+docker run --platform=linux/amd64 -d -p 4000:80 --rm local-wptserver
 
 sleep 1s
 
-docker run --platform amd64 -d -p 4001:80 \
+docker run --platform=linux/amd64 -d -p 4001:80 \
     --network="host" \
     -e "SERVER_URL=http://localhost:4000/work/" \
     -e "LOCATION=Test" \
