@@ -1,4 +1,4 @@
-#do# how to run
+# how to run
 
 ### when first installation
 
@@ -25,7 +25,7 @@ sh cleanup.sh
 <details>
 <summary>http://localhost:4000/</summary>
     
-main page
+![main page](./img/main.png)
 
 </details>
 
