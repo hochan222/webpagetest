@@ -1,2 +1,5 @@
-sh ./src/install.sh
-sh ./src/build.sh
+docker pull webpagetest/server
+docker pull webpagetest/agent
+
+sh ./src/server/build.sh
+sh ./src/agent/build.sh

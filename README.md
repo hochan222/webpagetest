@@ -1,4 +1,4 @@
-## how to
+#do# how to run
 
 ### when first installation
 

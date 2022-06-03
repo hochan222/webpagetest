@@ -1,2 +1,2 @@
 FROM webpagetest/server
-ADD locations.ini /var/www/html/settings/
+ADD /src/server/locations.ini /var/www/html/settings/
