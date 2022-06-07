@@ -46,6 +46,10 @@ docker ps
 docker stop 6645e33de5c4
 ```
 
+## Errors
+
+> WARNING: Published ports are discarded when using host network mode
+
 ## 참고
 
 - https://hub.docker.com/r/webpagetest/server/
